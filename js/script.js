@@ -17,7 +17,14 @@ $("button").click(function(){
 function ay(word){
     return word + "ay";
 }
+	function sentenceToPigLatin(sentence) {
+	var words = sentence.split(" ");
+	} 
+    	console.log(words)
+    	
 });
-// Create the sentenceToPigLatin function that takes a sentence as a parameter
+    // Create the sentenceToPigLatin function that takes a sentence as a parameter
 	//Loops through all the words in the sentence and transforms each word
 	//It should return a transfromed sentance
+
+	
